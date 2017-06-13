@@ -13,16 +13,17 @@
         <div class="form-group">
             <h1>Join The Clan</h1>
             <label for="username">Username</label>
-            <input type="text" name="username" class="form-control">
+            <input id="username" type="text" name="username" class="form-control">
         </div>
         <div class="form-group">
             <label for="email">E-mail</label>
-            <input type="text" name="email" class="form-control">
+            <input id="email" type="text" name="email" class="form-control">
         </div>
         <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" name="password" class="form-control">
+            <input id="password" type="password" name="password" class="form-control">
         </div>
+        <button class="btn" type="submit">ENTER IF YOU DARE</button>
     </form>
 </div>
 

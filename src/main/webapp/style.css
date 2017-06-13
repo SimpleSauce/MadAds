@@ -1,0 +1,9 @@
+body, html {
+    box-sizing: border-box;
+}
+
+body {
+    color: azure;
+    background-color: #000000;
+}
+
