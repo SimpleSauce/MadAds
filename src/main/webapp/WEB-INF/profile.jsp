@@ -9,6 +9,7 @@
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
     <div class="container">
+        <!-- TODO replace this with c:out -->
         <h1>Welcome, ${sessionScope.user}!</h1>
     </div>
 
