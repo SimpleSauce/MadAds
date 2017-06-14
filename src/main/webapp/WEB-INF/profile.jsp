@@ -12,6 +12,7 @@
     <div class="container">
         <h1>Welcome, <c:out value="${sessionScope.user.username}!"/></h1>
     </div>
-
+<!--//TODO Show users their posted ads
+    //TODO Allow users to delete/update their posted ads-->
 </body>
 </html>

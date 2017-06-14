@@ -34,4 +34,6 @@ public class RegisterServlet extends HttpServlet {
 
         response.sendRedirect("/profile");
     }
+    //TODO: Validate information before sending to database
+
 }
