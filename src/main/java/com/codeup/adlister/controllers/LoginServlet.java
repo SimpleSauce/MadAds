@@ -2,9 +2,7 @@ package com.codeup.adlister.controllers;
 
 import com.codeup.adlister.dao.DaoFactory;
 import com.codeup.adlister.models.User;
-import org.mindrot.jbcrypt.BCrypt;
 import utils.Password;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -39,8 +37,6 @@ public class LoginServlet extends HttpServlet {
         }
 
         boolean validAttempt = Password.attempt(password, user.getPassword());
-
-
 
         if (validAttempt) {
             request.getSession().setAttribute("user", user);
