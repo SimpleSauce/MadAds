@@ -3,7 +3,17 @@ body, html {
 }
 
 body {
-    color: azure;
+    color: #ffffff;
     background-color: #000000;
 }
 
+.container {
+    margin: 0;
+}
+
+.adBackground {
+    margin: 5px 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 1px solid white;
+}
