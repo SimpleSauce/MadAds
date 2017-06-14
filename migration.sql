@@ -20,6 +20,8 @@ CREATE TABLE ads (
     PRIMARY KEY (id),
     FOREIGN KEY (user_id) REFERENCES users(id)
         ON DELETE CASCADE
+<<<<<<< HEAD
+=======
 );
 
 CREATE TABLE categories (
@@ -29,4 +31,5 @@ CREATE TABLE categories (
     PRIMARY KEY (id),
     FOREIGN KEY (parent_id) REFERENCES users(id)
         ON DELETE CASCADE
+>>>>>>> 39ef0abdd9ffbede95215c4dc86c7ef84842467d
 );
