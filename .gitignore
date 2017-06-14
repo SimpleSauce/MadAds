@@ -1,4 +1,5 @@
 *.iml
 target/
 .idea/
-com.codeup.adlister.dao.Config.java
+Config.java
+
