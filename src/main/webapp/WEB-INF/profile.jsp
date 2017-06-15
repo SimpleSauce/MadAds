@@ -10,7 +10,11 @@
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
     <div class="container">
-        <h1>Welcome, <c:out value="${sessionScope.user.username}!"/></h1>
+        <h1>Welcome,
+            <span id="profileName">
+            <c:out value="${sessionScope.user.username}"/>
+            </span>!
+        </h1>
         <h1>Your Ads</h1>
         <c:forEach var="ad" items="${ads}">
             <c:if test="${sessionScope.user.id == ad.userId}">
@@ -33,15 +37,6 @@
                         </button>
                     </form>
 
-
-
-
-                    <button id="edit" class="customButton btn"><span class="glyphicon glyphicon-pencil"></span></button>
-                    <form action="/ads/delete" method="post" class="deleteForm">
-                        <input name="id" type="hidden" value="${ad.id}">
-                        <button type="submit" class="customButton deletion btn"><span class="glyphicon glyphicon-trash"></span>
-                        </button>
-                    </form>
                 </div>
             </c:if>
         </c:forEach>

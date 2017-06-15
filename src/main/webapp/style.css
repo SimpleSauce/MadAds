@@ -8,10 +8,22 @@ body {
     background-attachment: fixed;
 }
 
+#searchForm {
+    color: darkslategrey;
+    position: relative;
+    top: 13px;
+    left: 100px;
+}
+
+.navbar-brand {
+    position: absolute;
+}
+
 #searchBar {
     border: 1px solid black;
     border-style: inset;
     color: #FC354C;
+    border-radius: 8px;
 }
 
 #searchBar:focus {
@@ -70,4 +82,16 @@ button:focus {
 #profileName {
     color: #FC354C;
     font-style: italic;
+}
+
+#username {
+
+}
+
+#password {
+
+}
+
+#searchBar {
+
 }
