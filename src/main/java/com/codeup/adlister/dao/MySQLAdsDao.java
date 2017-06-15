@@ -67,7 +67,7 @@ public class MySQLAdsDao implements Ads {
             stmt.setLong(1, id);
             stmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();a
+            e.printStackTrace();
         }
         return null;
     }
