@@ -9,6 +9,16 @@ body {
     background-size: cover;
 }
 
+#searchBar {
+    border: 1px solid black;
+    border-style: inset;
+    color: orangered;
+}
+
+#searchBar:focus {
+    outline: none;
+}
+
 button:focus {
     outline: none;
 }
