@@ -4,7 +4,9 @@ body, html {
 
 body {
     color: #ffffff;
-    background-color: #000000;
+    background: url("img/hao-wang-217034.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container {
@@ -12,7 +14,7 @@ body {
 }
 
 .adBackground {
-    margin: 5px 0px;
+    margin: 5px 0;
     background-color: rgba(0, 255, 255, 0.5);
     border-radius: 10px;
     border: 1px solid white;
@@ -20,22 +22,25 @@ body {
 
 #logo1 {
     font-size: 2em;
-    margin: 0 auto;
     color: orangered;
     font-style: italic;
-    position: absolute;
+    position: relative;
 }
 
 #logo2 {
     font-size: 2em;
     position: relative;
-    top: 50px;
-    left: 50px;
+    top: -40px;
+    left: 80px;
 }
 
 #logoBack {
+    margin-left: 150px;
+    width: 200px;
+    height: 200px;
     font-size: 3em;
-    /*background-color: lightslategrey;*/
-    /*border: 1px solid white;*/
-    /*border-radius: 20%;*/
+    display: inline-block;
+    position: absolute;
+    /*background-color: rgba(0, 150, 150, 0.4);*/
+    border-radius: 50%;
 }

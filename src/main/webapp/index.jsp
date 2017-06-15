@@ -8,7 +8,7 @@
 </head>
 <body>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
-    <div id="logoBack" class="container">
+    <div id="logoBack">
         <h1 id="logo1">Mad</h1>
         <h1 id="logo2">Ads</h1>
     </div>
