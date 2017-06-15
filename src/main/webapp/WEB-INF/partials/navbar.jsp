@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="/ads">Adlister</a>
-            <input id="searchBar" type="text">
+            <form action="/ads" method="post"><input name="searchTerm" id="searchBar" type="text"></form>
         </div>
 
         <ul class="nav navbar-nav navbar-right">

@@ -4,9 +4,8 @@ body, html {
 
 body {
     color: #ffffff;
-    background: url("img/hao-wang-217034.jpg");
+    background: url("img/dark_mosaic.png");
     background-attachment: fixed;
-    background-size: cover;
 }
 
 #searchBar {
