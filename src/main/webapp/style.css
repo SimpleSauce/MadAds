@@ -9,6 +9,14 @@ body {
     background-size: cover;
 }
 
+button:focus {
+    outline: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
 .container {
     margin: 0 auto;
 }
@@ -43,4 +51,9 @@ body {
     position: absolute;
     /*background-color: rgba(0, 150, 150, 0.4);*/
     border-radius: 50%;
+}
+
+.customButton {
+    width: 75px;
+    height: 25px;
 }

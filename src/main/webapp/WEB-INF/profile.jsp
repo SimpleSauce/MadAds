@@ -17,6 +17,8 @@
                 <div class="col-md-6 adBackground">
                     <h2><c:out value="${ad.title}"/></h2>
                     <p><c:out value="${ad.description}"/></p>
+                    <button class="customButton btn"><span class="glyphicon glyphicon-pencil"></span></button>
+                    <button class="customButton btn"><span class="glyphicon glyphicon-trash"></span></button>
                 </div>
             </c:if>
         </c:forEach>
