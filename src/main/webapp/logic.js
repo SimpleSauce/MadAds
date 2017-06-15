@@ -10,4 +10,10 @@
         }
     });
 
+    $('.editForm').on('submit', function(e) {
+        // editClass <- be careful witdat
+        this.submit();
+
+    })
+
 }))();

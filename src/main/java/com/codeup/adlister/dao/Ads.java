@@ -14,4 +14,8 @@ public interface Ads {
 
     // delete a specific ad
     Long delete(Long id);
+
+    // edit a specific ad from the ads list?
+    Long edit(Long id);
+
 }
