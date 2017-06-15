@@ -9,12 +9,30 @@ body {
     background-size: cover;
 }
 
+#searchBar {
+    border: 1px solid black;
+    border-style: inset;
+    color: #FC354C;
+}
+
+#searchBar:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
 .container {
     margin: 0 auto;
 }
 
 .adBackground {
-    margin: 5px 0;
+    margin: 5px;
     background-color: rgba(0, 255, 255, 0.5);
     border-radius: 10px;
     border: 1px solid white;
@@ -43,4 +61,14 @@ body {
     position: absolute;
     /*background-color: rgba(0, 150, 150, 0.4);*/
     border-radius: 50%;
+}
+
+.customButton {
+    width: 75px;
+    height: 25px;
+}
+
+#profileName {
+    color: #FC354C;
+    font-style: italic;
 }
