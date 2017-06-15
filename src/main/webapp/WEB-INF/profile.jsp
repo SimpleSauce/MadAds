@@ -36,11 +36,15 @@
 
 
 
+                    <button id="edit" class="customButton btn"><span class="glyphicon glyphicon-pencil"></span></button>
+                    <form action="/ads/delete" method="post" class="deleteForm">
+                        <input name="id" type="hidden" value="${ad.id}">
+                        <button type="submit" class="customButton deletion btn"><span class="glyphicon glyphicon-trash"></span>
+                        </button>
+                    </form>
                 </div>
             </c:if>
         </c:forEach>
-
-
     </div>
     <!-- //TODO Allow users toupdate their posted ads-->
     <jsp:include page="/WEB-INF/partials/footer.jsp" />

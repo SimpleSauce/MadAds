@@ -8,8 +8,10 @@
 </head>
 <body>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
-    <div class="container">
-        <h1>Welcome to the Adlister!</h1>
+    <div id="logoBack">
+        <h1 id="logo1">Mad</h1>
+        <h1 id="logo2">Ads</h1>
     </div>
+    <jsp:include page="/WEB-INF/partials/footer.jsp" />
 </body>
 </html>
