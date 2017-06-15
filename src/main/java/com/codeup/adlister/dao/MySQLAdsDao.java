@@ -90,6 +90,12 @@ public class MySQLAdsDao implements Ads {
         return null;
     }
 
+    @Override
+    public Long edit(Long id) {
+
+        return null;
+    }
+
     private Ad extractAd(ResultSet rs) throws SQLException {
         return new Ad(
             rs.getLong("id"),
