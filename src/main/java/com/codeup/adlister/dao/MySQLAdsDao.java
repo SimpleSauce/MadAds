@@ -1,7 +1,10 @@
 package com.codeup.adlister.dao;
 
 import com.codeup.adlister.models.Ad;
+import com.mysql.cj.api.mysqla.result.Resultset;
 import com.mysql.cj.jdbc.Driver;
+
+import javax.xml.transform.Result;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -55,6 +58,21 @@ public class MySQLAdsDao implements Ads {
         }
     }
 
+    @Override
+    public List<Ad> search(String searchTerm) {
+        String query = "SELECT * FROM ads WHERE title LIKE ?";
+        try {
+            PreparedStatement stmt = connection.prepareStatement(query);
+            stmt.setString(1, "%" + searchTerm + "%");
+            ResultSet rs = stmt.executeQuery();
+            return createAdsFromResults(rs);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
+
+    }
+
     private Ad extractAd(ResultSet rs) throws SQLException {
         return new Ad(
             rs.getLong("id"),
@@ -71,4 +89,7 @@ public class MySQLAdsDao implements Ads {
         }
         return ads;
     }
+
+
+
 }
