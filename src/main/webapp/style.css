@@ -12,7 +12,7 @@ body {
 #searchBar {
     border: 1px solid black;
     border-style: inset;
-    color: orangered;
+    color: #FC354C;
 }
 
 #searchBar:focus {
@@ -32,7 +32,7 @@ button:focus {
 }
 
 .adBackground {
-    margin: 5px 0;
+    margin: 5px;
     background-color: rgba(0, 255, 255, 0.5);
     border-radius: 10px;
     border: 1px solid white;
@@ -66,4 +66,9 @@ button:focus {
 .customButton {
     width: 75px;
     height: 25px;
+}
+
+#profileName {
+    color: #FC354C;
+    font-style: italic;
 }
