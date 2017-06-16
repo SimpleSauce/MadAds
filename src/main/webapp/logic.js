@@ -9,8 +9,9 @@
             this.submit();
         }
     });
+
     // This edits an ad
-    $('.editForm').on('submit', function(e) {
+    $('.editForm').on('submit', function() {
         this.submit();
     });
 

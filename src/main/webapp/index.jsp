@@ -26,5 +26,6 @@
     </ul>
 </div>
 <jsp:include page="/WEB-INF/partials/footer.jsp"/>
+<jsp:include page="/WEB-INF/partials/footer2.jsp"/>
 </body>
 </html>
