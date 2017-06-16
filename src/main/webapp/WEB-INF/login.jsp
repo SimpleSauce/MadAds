@@ -8,18 +8,25 @@
 <body>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
     <div class="container">
-        <h1>Welcome back</h1>
-        <form action="/login" method="POST">
+
+            <h1 id="welcome-back">Welcome back</h1>
             <div class="form-group">
-                <label for="username">Username</label>
-                <input autofocus="autofocus" id="username" name="username" class="form-control loginInput" type="text">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input id="password" name="password" class="form-control" type="password">
-            </div>
+              <div id="down-arrow-bounce">
+                <span id="down-arrow-glyph" class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+              </div>
+              <form action="/login" method="POST">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input autofocus="autofocus" id="username" name="username" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" class="form-control" type="password">
+                </div>
+
             <input type="submit" class="loginButton" value="Log In">
         </form>
+        </div>
     </div>
 </body>
 </html>

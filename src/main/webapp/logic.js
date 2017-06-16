@@ -15,7 +15,6 @@
         this.submit();
     });
 
-    // This moves the list items on the Splash page.
     $('.splashLi').animate({left: '+=160.5%'}, 1000);
 
 }))();
