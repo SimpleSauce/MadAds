@@ -23,11 +23,24 @@
 
 
 
-    //TODO login page will make cursor focus on login input
+
+
+
+
+
 
 
 
     // This moves the list items on the Splash page
     $('.splashLi').animate({left: '+=160.5%'}, 1000);
+
+    // This makes the down arrow bounce on register
+  //  $("#down-arrow-bounce").effect("bounce", { times:20 }, 10000);
+
+    // $(".adWithBigFont").mouseenter(function() {
+    //     $(this).css("color", "#F52").css("border-radius", "3px");
+    // }).mouseleave(function() {
+    //     $(this).css("color", "00F").css("border-radius", "0px");
+    // });
 
 }))();
