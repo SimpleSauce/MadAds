@@ -23,11 +23,9 @@
                     <p><c:out value="${ad.description}"/></p>
 
                     <%--EDIT BUTTON--%>
-                    <form action="/ads/edit" method="post" class="editForm">
-                        <input name="id" type="hidden" value="${ad.id}">
+                    <a href="/ads/edit?id=${ad.id}" class="customButton editClass btn">
                         <button type="submit" class="customButton editClass btn"><span class="glyphicon glyphicon-pencil"></span></button>
-                    </form>
-
+                    </a>
 
                     <%--DELETE BUTTON--%>
                     <form action="/ads/delete" method="post" class="deleteForm">

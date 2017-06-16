@@ -11,13 +11,11 @@
     });
 
     $('.editForm').on('submit', function(e) {
-        // editClass <- be careful witdat
         this.submit();
-
     });
 
+    //TODO login page will make cursor focus on login input
+
     $('.splashLi').animate({left: '+=160.5%'}, 1000);
-
-
 
 }))();

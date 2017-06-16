@@ -100,9 +100,8 @@ button:focus {
 
 .navbar-default {
     background-color: transparent;
-    border-color: #e7e7e7;
-    font-family: monospace;
-
+    border: none;
+    font-family: 'Raleway', sans-serif;
 }
 
 #splashFeatures {
