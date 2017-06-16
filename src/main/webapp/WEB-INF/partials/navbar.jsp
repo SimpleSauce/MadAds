@@ -2,7 +2,7 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/ads">Adlister</a>
+            <a class="navbar-brand" href="/">Mad Ads</a>
             <form id="searchForm" action="/ads" method="post"><input name="searchTerm" id="searchBar" type="text" placeholder="Search: "></form>
         </div>
 
