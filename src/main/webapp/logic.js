@@ -14,6 +14,10 @@
         // editClass <- be careful witdat
         this.submit();
 
-    })
+    });
+
+    $('.splashLi').animate({left: '+=160.5%'}, 1000);
+
+
 
 }))();
