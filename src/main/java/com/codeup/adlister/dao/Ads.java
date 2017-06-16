@@ -19,5 +19,4 @@ public interface Ads {
     Ad edit(Long id);
 
     void update(Ad ad);
-
 }

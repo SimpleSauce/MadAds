@@ -11,14 +11,16 @@
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
 <div class="container">
-    <h1>Here Are all the ads!</h1>
+    <h1>Browsing all Ads</h1>
 
     <c:forEach var="ad" items="${ads}">
         <div class="adBackground">
-            <div>
-                <h2><c:out value="${ad.title}"/></h2>
-                <p><c:out value="${ad.description}"/></p>
-            </div>
+            <a href="/ads/singleView?id=${ad.id}">
+                <div class="clickableItem">
+                    <h2><c:out value="${ad.title}"/></h2>
+                    <p><c:out value="${ad.description}"/></p>
+                </div>
+            </a>
         </div>
     </c:forEach>
 </div>
