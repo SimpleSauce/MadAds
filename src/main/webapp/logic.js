@@ -10,7 +10,7 @@
         }
     });
 
-    $('.editForm').on('submit', function(e) {
+    $('.editForm').on('submit', function() {
         this.submit();
     });
 
