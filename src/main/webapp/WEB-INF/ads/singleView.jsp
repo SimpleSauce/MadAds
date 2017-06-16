@@ -11,9 +11,9 @@
 <jsp:include page="/WEB-INF/partials/navbar.jsp"/>
 <div class="container">
     <div class="viewSingleAdd">
-        <h2><c:out value="${ad.title}"/></h2>
-        <p><c:out value="${ad.description}"/></p>
-        <p><c:out value="${ad.userId}"/></p>
+        <h2>Item Name: <c:out value="${ad.title}"/></h2>
+        <h4>Item Description: <c:out value="${ad.description}"/></h4>
+        <p>User ID: <c:out value="${ad.userId}"/></p>
     </div>
 </div>
 

@@ -47,6 +47,7 @@ button:focus {
     background-color: rgba(0, 255, 255, 0.5);
     border-radius: 10px;
     border: 1px solid white;
+
 }
 
 #logo1 {
@@ -95,7 +96,7 @@ button:focus {
 }
 
 #searchBar {
-
+    width: 145%;
 }
 
 .navbar-default {
@@ -130,10 +131,42 @@ button:focus {
 
 .form-control {
     margin: auto;
+    width: 26%;
 }
 
 .loginButton {
-    margin-left: 42%;
     width: 15%;
     border-radius: 15%;
+}
+
+#registerButton {
+    float: left;
+    margin: auto;
+    margin-left: 47%;
+}
+
+#down-arrow-glyph {
+    margin-bottom: 3%;
+    font-size: 50px;
+}
+
+.clickableItem {
+    color: white;
+}
+
+#welcome-back {
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a  {
+    color: antiquewhite;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    color: #FC354C;
+}
+
+.adWithBigFont :hover {
+    color: #FC354C;
+    font-size: 110%;
 }

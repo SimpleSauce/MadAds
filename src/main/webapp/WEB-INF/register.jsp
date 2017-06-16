@@ -11,7 +11,11 @@
 <div class="container">
     <form action="/register" method="POST">
         <div class="form-group">
-            <h1>Join The Clan</h1>
+            <h1>Register Here</h1>
+            <div id="down-arrow-bounce">
+                <span id="down-arrow-glyph" class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+            </div>
+
             <label for="username">Username</label>
             <input id="username" type="text" name="username" class="form-control">
         </div>
@@ -23,7 +27,7 @@
             <label for="password">Password</label>
             <input id="password" type="password" name="password" class="form-control">
         </div>
-        <button class="btn" type="submit">Submit</button>
+        <button id="registerButton" class="btn" type="submit">Submit</button>
     </form>
 </div>
 

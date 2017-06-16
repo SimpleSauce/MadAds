@@ -11,7 +11,7 @@
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
 <div class="container">
-    <h1>Browsing all Ads</h1>
+    <h1 class="adWithBigFont">Browsing all Ads</h1>
 
     <c:forEach var="ad" items="${ads}">
         <div class="adBackground">
