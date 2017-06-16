@@ -4,7 +4,7 @@ body, html {
 
 body {
     color: #ffffff;
-    background: url("img/dark_mosaic.png");
+    background: url("img/px_by_Gre3g.png");
     background-attachment: fixed;
 }
 
@@ -34,7 +34,15 @@ button:focus {
     outline: none;
 }
 
+input:focus {
+    outline: none;
+}
+
 .btn:focus {
+    outline: none;
+}
+
+form:focus {
     outline: none;
 }
 
@@ -52,7 +60,7 @@ button:focus {
 
 #logo1 {
     font-size: 2em;
-    color: orangered;
+    color: #FC354C;
     font-style: italic;
     position: relative;
     float: left;

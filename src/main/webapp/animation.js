@@ -4,20 +4,16 @@
 
     const burst = new mojs.Burst({
         left: 0, top: 0,
-        degree:   180,
-        angle:    90,
-        radius:   { 10: 25 },
-        count:    5,
+        degree:   360,
+        radius:   5,
+        count:    1,
         children: {
+            radius:   { 12: 0 },
             shape:        'circle',
-            radius:       7,
-            radiusY:      0,
+            fill: '#FC354C',
             scale:        1,
-            strokeDasharray: '100%',
-            strokeDashoffset: { '-100%' : '100%' },
-            stroke:       '#F9DD5E' ,
             easing:       'linear.none',
-            duration:     600
+            duration:     200
         }
     });
 
