@@ -8,10 +8,22 @@ body {
     background-attachment: fixed;
 }
 
+#searchForm {
+    color: darkslategrey;
+    position: relative;
+    top: 13px;
+    left: 100px;
+}
+
+.navbar-brand {
+    position: absolute;
+}
+
 #searchBar {
     border: 1px solid black;
     border-style: inset;
     color: #FC354C;
+    border-radius: 8px;
 }
 
 #searchBar:focus {
@@ -42,6 +54,7 @@ button:focus {
     color: orangered;
     font-style: italic;
     position: relative;
+    float: left;
 }
 
 #logo2 {
@@ -49,6 +62,7 @@ button:focus {
     position: relative;
     top: -40px;
     left: 80px;
+    float: left;
 }
 
 #logoBack {
@@ -58,8 +72,8 @@ button:focus {
     font-size: 3em;
     display: inline-block;
     position: absolute;
-    /*background-color: rgba(0, 150, 150, 0.4);*/
     border-radius: 50%;
+
 }
 
 .customButton {
@@ -70,4 +84,57 @@ button:focus {
 #profileName {
     color: #FC354C;
     font-style: italic;
+}
+
+#username {
+    width: 25%;
+}
+
+#password {
+    width: 25%;
+}
+
+#searchBar {
+
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: #e7e7e7;
+    font-family: monospace;
+
+}
+
+#splashFeatures {
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 46%;
+    font-size: 270%;
+    margin-top: 22%;
+}
+
+#mADness {
+    color: #FC354C;
+    font-size: 110%;
+}
+
+.splashLi {
+    list-style:none;
+    position: relative;
+    cursor: pointer;
+    z-index:0;
+    right:200%;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.form-control {
+    margin: auto;
+}
+
+.loginButton {
+    margin-left: 42%;
+    width: 15%;
+    border-radius: 15%;
 }

@@ -23,7 +23,7 @@
             <label for="password">Password</label>
             <input id="password" type="password" name="password" class="form-control">
         </div>
-        <button class="btn" type="submit">ENTER IF YOU DARE</button>
+        <button class="btn" type="submit">Submit</button>
     </form>
 </div>
 
